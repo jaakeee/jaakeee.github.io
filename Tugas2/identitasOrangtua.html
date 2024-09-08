@@ -1,0 +1,294 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir kipk</title>
+    <link rel="stylesheet" href="styless.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <p class="header">Identitas Orang Tua</p>
+      <div class="group">
+        <table>
+          <tr>
+            <th><label for="Nama Ayah">Nama Ayah</label></th>
+            <th><label for="Nama Ibu">Nama Ibu</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Nama Ayah"
+                id="Nama Ayah"
+                placeholder="Nama Ayah"
+                required
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="Nama Ibu"
+                id="Nama Ibu"
+                placeholder="Nama Ibu"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Pendidikan Ayah">Pendidikan Ayah</label></th>
+            <th><br /><label for="Pendidikan Ibu">Pendidikan Ibu</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                list="pendidikan"
+                name="Pendidikan Ayah"
+                id="Pendidikan Ayah"
+                placeholder="Pendidikan Ayah"
+                required
+              />
+            </td>
+            <datalist id="pendidikan">
+              <option value="SD"></option>
+              <option value="SMP"></option>
+              <option value="SMA"></option>
+              <option value="D1"></option>
+              <option value="D2"></option>
+              <option value="D3"></option>
+              <option value="S1/D4"></option>
+              <option value="S2"></option>
+              <option value="S3"></option>
+            </datalist>
+            <td>
+              <input
+                list="pendidikan"
+                name="Pendidikan Ibu"
+                id="Pendidikan Ibu"
+                placeholder="Pendidikan Ibu"
+                required
+              />
+            </td>
+            <datalist id="pendidikan">
+              <option value="SD"></option>
+              <option value="SMP"></option>
+              <option value="SMA"></option>
+              <option value="D1"></option>
+              <option value="D2"></option>
+              <option value="D3"></option>
+              <option value="S1/D4"></option>
+              <option value="S2"></option>
+              <option value="S3"></option>
+            </datalist>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Pekerjaan Ayah">Pekerjaan Ayah</label></th>
+            <th><br /><label for="Pekerjaan Ibu">Pekerjaan Ibu</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Pekerjaan Ayah"
+                id="Pekerjaan Ayah"
+                placeholder="Pekerjaan Ayah"
+                required
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="Pekerjaan Ibu"
+                id="Pekerjaan Ibu"
+                placeholder="Pekerjaan Ibu"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Alamat Jalan">Alamat Jalan</label></th>
+            <th><br /><label for="RT/RW/No.Rumah">RT/RW/No.Rumah</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Alamat Jalan"
+                id="Alamat Jalan"
+                placeholder="Alamat Jalan"
+                required
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="RT/RW/No.Rumah"
+                id="RT/RW/No.Rumah"
+                placeholder="RT/RW/No.Rumah"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Kelurahan/Desa">Kelurahan/Desa</label></th>
+            <th><br /><label for="Kecamatan">Kecamatan</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Kelurahan/Desa"
+                id="Kelurahan/Desa"
+                placeholder="Kelurahan/Desa"
+                required
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="Kecamatan"
+                id="Kecamatan"
+                placeholder="Kecamatan"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Kabupaten/Kota">Kabupaten/Kota</label></th>
+            <th><br /><label for="Provinsi">Provinsi</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Kabupaten/Kota"
+                id="Kabupaten/Kota"
+                placeholder="Kabupaten/Kota"
+                required
+              />
+            </td>
+            <td>
+              <input
+                list="Provinsi-list"
+                name="Provinsi"
+                id="Provinsi"
+                placeholder="Provinsi"
+                required
+              />
+            </td>
+            <datalist id="Provinsi-list">
+              <option value="Nanggroe Aceh Darussalam"></option>
+              <option value="Sumatera Utara"></option>
+              <option value="Sumatera Selatan"></option>
+              <option value="Sumatera Barat"></option>
+              <option value="Bengkulu"></option>
+              <option value="Riau"></option>
+              <option value="Jambi "></option>
+              <option value="Lampung"></option>
+              <option value="Bangka Belitung"></option>
+              <option value="Kalimantan Barat"></option>
+              <option value="Kalimantan Timur "></option>
+              <option value="Kalimantan Selatan "></option>
+              <option value="Kalimantan Tengah "></option>
+              <option value="Kalimantan Utara "></option>
+              <option value="Banten "></option>
+              <option value="DKI Jakarta "></option>
+              <option value="Jawa Barat  "></option>
+              <option value="Jawa Tengah "></option>
+              <option value="Daerah Istimewa Yogyakarta "></option>
+              <option value="Jawa Timur "></option>
+              <option value="Bali  "></option>
+              <option value="Gorontalo "></option>
+              <option value="Sulawesi Barat "></option>
+              <option value="Sulawesi Tengah  "></option>
+              <option value="Sulawesi Utara  "></option>
+              <option value="Sulawesi Tenggara  "></option>
+              <option value="Sulawesi Selatan "></option>
+              <option value="Maluku Utara   "></option>
+              <option value="Maluku  "></option>
+              <option value="Papua Barat   "></option>
+              <option value="Papua  "></option>
+              <option value="Papua Tengah "></option>
+              <option value="Papua Pegunungan "></option>
+              <option value="Papua Selatan"></option>
+              <option value="Papua Barat Daya "></option>
+            </datalist>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Kode Pos">Kode Pos</label></th>
+            <th><br /><label for="Negara">Negara</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="number"
+                name="Kode Pos"
+                id="Kode Pos"
+                placeholder="Kode Pos"
+                required
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="Negara"
+                id="Negara"
+                placeholder="Negara"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="kk">Kartu Keluarga</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="file"
+                name="Kartu Keluarga"
+                id="kk"
+                required
+                multiple
+              />
+            </td>
+          </tr>
+          <tr></tr>
+
+          <tr>
+            <th align="left">
+              <br /><a href="identitasMahasiswa.html"
+                ><button
+                  class="btn btn-danger btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u"
+                >
+                  Sebelumnya
+                </button></a
+              >
+            </th>
+            <th>
+              <br /><a href="KeuangandanAsetkeluarga.html"
+                ><button
+                  class="btn btn-danger btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u"
+                >
+                  Selanjutnya
+                </button></a
+              >
+            </th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

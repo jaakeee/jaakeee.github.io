@@ -1,0 +1,75 @@
+body {
+  font-family: poppins;
+  font-weight: 100%;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 40px auto;
+  display: block;
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  height: auto;
+  text-align: center;
+}
+
+.group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 250px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 4px;
+  text-align: left;
+  display: block;
+  font-size: 14px;
+  color: #646c9a;
+}
+
+input[type="text"],
+input[list],
+input[type="number"],
+input[type="email"],
+input[type="file"] {
+  width: 120%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  margin-right: 430px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: rgb(72, 70, 91);
+}
+
+.btn {
+  background-color: #2b67b0;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 4px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: poppins;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #274364;
+}
+
+input[placeholder] {
+  text-align: left;
+}

@@ -1,0 +1,420 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir kipk</title>
+    <link rel="stylesheet" href="stylee.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <p class="header" style="margin-right: 344px">
+        Keuangan dan Aset Keluarga
+      </p>
+      <div class="group">
+        <table>
+          <tr>
+            <th><label for="penghasilan">Penghasilan orang tua</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Penghasilan orang tua"
+                id="penghasilan"
+                required
+                placeholder="Penghasilan orang tua"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Jumlah tanggungan orang tua"
+                >Jumlah tanggungan orang tua</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Jumlah tanggungan orang tua"
+                id="Jumlah tanggungan orang tua"
+                required
+                placeholder="Jumlah tanggungan orang tua"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="color: rgb(116, 120, 141); font-size: small">
+              Jumlah tanggungan sesuai kartu keluarga (termasuk Kepala Keluarga)
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Status orang tua">Status orang tua</label>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Status orang tua"
+                id="Status orang tua"
+                required
+                placeholder="Status orang tua"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Status rumah orang tua"
+                >Status rumah orang tua</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                list="rumah-list"
+                name="Status rumah orang tua"
+                id="Jenis Kelamin"
+                placeholder="Status rumah orang tua"
+              />
+            </td>
+            <datalist id="rumah-list">
+              <option value="Laki-Laki"></option>
+              <option value="Perempuan"></option>
+            </datalist>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Kondisi rumah">Kondisi rumah orang tua</label>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Kondisi rumah orang tua"
+                id="Kondisi rumah"
+                placeholder="Kondisi rumah"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="transportasi">Alat transportasi</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Alat transportasi"
+                id="transportasi"
+                required
+                placeholder="Alat transportasi"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="mck">Mandi, Cuci, Kakus (MCK)</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Mandi, Cuci, Kakus (MCK)"
+                id="mck"
+                required
+                placeholder="Mandi, Cuci, Kakus (MCK)"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Sumber Air">Sumber Air</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Sumber Air"
+                id="Sumber Air"
+                placeholder="Sumber Air"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Jarak"
+                >Jarak dari Rumah Orang Tua ke Kota</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Jarak dari Rumah Orang Tua ke Kota"
+                id="Jarak"
+                placeholder="Jarak dari Rumah Orang Tua ke Kota"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Daya listrik">Daya listrik</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Daya listrik"
+                id="Daya listrik"
+                placeholder="Daya listrik"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Biaya rekening listrik"
+                >Biaya rekening listrik/bulan</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Biaya rekening listrik/bulan"
+                id="Biaya rekening listrik"
+                placeholder="Biaya rekening listrik"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="color: rgb(116, 120, 141); font-size: small">
+              Rekening listrik bulan terakhir/Voucher bulan terakhir
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Biaya rekening air"
+                >Biaya rekening air/bulan</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Biaya rekening air/bulan"
+                id="Biaya rekening air"
+                placeholder="Biaya rekening air"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Biaya pajak bumi dan bangunan"
+                >Biaya pajak bumi dan bangunan</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Biaya pajak bumi dan bangunan"
+                id="Biaya pajak bumi dan bangunan"
+                placeholder="Biaya pajak bumi dan bangunan"
+                required
+              />
+            </td>
+          </tr>
+
+          <div class="upload-file">
+            <tr>
+              <th>
+                <br /><label for="tagihan">Tagihan/Voucher Listrik</label>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="file"
+                  name="Tagihan/Voucher Listrik"
+                  id="tagihan"
+                  required
+                  multiple
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="color: rgb(116, 120, 141); font-size: small">
+                Filetipe: *.pdf | Maks. Size: 750KB
+              </td>
+            </tr>
+
+            <tr>
+              <th><br /><label for="Tagihan Air">Tagihan Air</label></th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="file"
+                  name="Tagihan Air"
+                  id="Tagihan Air"
+                  required
+                  multiple
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="color: rgb(116, 120, 141); font-size: small">
+                Filetipe: *.pdf | Maks. Size: 750KB
+              </td>
+            </tr>
+
+            <tr>
+              <th>
+                <br /><label for="slip gaji"
+                  >Slip Gaji / Surat Keterangan Penghasilan</label
+                >
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="file"
+                  name="Slip Gaji / Surat Keterangan Penghasilan"
+                  id="slip gaji"
+                  required
+                  multiple
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="color: rgb(116, 120, 141); font-size: small">
+                Filetipe: *.pdf | Maks. Size: 1MB
+              </td>
+            </tr>
+
+            <tr>
+              <th><br /><label for="Foto Rumah">Foto Rumah</label></th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="file"
+                  name="Foto Rumah"
+                  id="Foto Rumah"
+                  required
+                  multiple
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="color: rgb(116, 120, 141); font-size: small">
+                Filetipe: *.pdf | Maks. Size: 1MB
+              </td>
+            </tr>
+
+            <tr>
+              <th>
+                <br /><label for="sktm"
+                  >Surat Keterangan Tidak Mampu (SKTM)</label
+                >
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="file"
+                  name="Surat Keterangan Tidak Mampu (SKTM)"
+                  id="sktm"
+                  required
+                  multiple
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="color: rgb(116, 120, 141); font-size: small">
+                Filetipe: *.pdf | Maks. Size: 1MB
+              </td>
+            </tr>
+
+            <tr>
+              <th>
+                <br /><label for="sktl"
+                  >Surat Keterangan Lainnya/ Surat Tinggal di Panti
+                  Asuhan</label
+                >
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="file"
+                  name="Surat Keterangan Lainnya/ Surat Tinggal di Panti Asuhan"
+                  id="sktl"
+                  required
+                  multiple
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="color: rgb(116, 120, 141); font-size: small">
+                Filetipe: *.pdf | Maks. Size: 1MB
+              </td>
+            </tr>
+          </div>
+
+          <div class="button">
+            <tr>
+              <th align="left">
+                <br /><a href="identitasOrangtua.html"
+                  ><button
+                    class="btn btn-danger btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u"
+                  >
+                    Sebelumnya
+                  </button></a
+                >
+              </th>
+              <th>
+                <br /><a href="PrestasiMahasiswa.html"
+                  ><button
+                    class="btn btn-danger btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u"
+                  >
+                    Selanjutnya
+                  </button></a
+                >
+              </th>
+            </tr>
+          </div>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

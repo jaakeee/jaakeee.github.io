@@ -1,0 +1,360 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir kipk</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <p class="header">Identitas Mahasiswa</p>
+      <div class="group">
+        <table>
+          <tr>
+            <th>
+              <label for="No Peserta - Nama Calon Mahasiswa"
+                >No Peserta - Nama Calon Mahasiswa</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="No Peserta - Nama Calon Mahasiswa"
+                id="No Peserta - Nama Calon Mahasiswa"
+                placeholder="
+                        No Peserta - Nama Calon Mahasiswa"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="nkip"
+                >Nomor Kartu Indonesia Pintar/Kartu Pra Sejahtera/Kartu Keluarga
+                Sejahtera</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="nkip"
+                id="nkip"
+                required
+                placeholder="Nomor Kartu Indonesia Pintar/Kartu Pra Sejahtera/Kartu Keluarga Sejahtera"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="color: #fd397a; font-size: small">
+              Diisi jika memiliki KIP/KKS sebelum Kuliah. SILAHKAN KLIK CONTOH
+              KARTU KIP/KKS
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Nomor Pendaftaran KIP-K"
+                >Nomor Pendaftaran KIP-K</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Nomor Pendaftaran KIP-K"
+                id="Nomor Pendaftaran KIP-K"
+                placeholder="Nomor Pendaftaran KIP-K"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td style="color: rgb(116, 120, 141); font-size: small">
+              Di Isi Sesuai Nomor KIPK
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Jenis Kelamin">Jenis Kelamin</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                list="Gender-list"
+                name="jenis kelamin"
+                id="Jenis Kelamin"
+                placeholder="Jenis Kelamin"
+              />
+            </td>
+            <datalist id="Gender-list">
+              <option value="Laki-Laki"></option>
+              <option value="Perempuan"></option>
+            </datalist>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="No. Kontak Hp/WA">No. Kontak Hp/WA</label>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="No. Kontak Hp/WA"
+                id="No. Kontak Hp/WA"
+                placeholder="No. Kontak Hp/WA"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Asal Sekolah">Asal Sekolah</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Asal Sekolah"
+                id="Asal Sekolah"
+                placeholder="Asal Sekolah"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Program Studi">Program Studi</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Program Studi"
+                id="Program Studi"
+                placeholder="Program Studi"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Fakultas">Fakultas</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Fakultas"
+                id="Fakultas"
+                placeholder="Fakultas"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Nisn">Nomor Induk Siswa Nasional (NISN)</label>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Nisn"
+                id="Nisn"
+                placeholder="Nomor Induk Siswa Nasional (NISN)"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Tanggal-Lahir">Tanggal Lahir</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="date"
+                name="Tanggal Lahir"
+                id="Tanggal-Lahir"
+                placeholder="Tanggal-Lahir"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Tempat lahir">Tempat lahir</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Tempat lahir"
+                id="Tempat lahir"
+                placeholder="Tempat lahir"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Email">Email</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="email"
+                name="Email"
+                id="Email"
+                placeholder="Email"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Kewarganegaraan">Kewarganegaraan</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Kewarganegaraan"
+                id="Kewarganegaraan"
+                placeholder="Kewarganegaraan"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Agama">Agama</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Agama"
+                id="Agama"
+                placeholder="Agama"
+                required
+              />
+            </td>
+          </tr>
+
+          <div class="upload-file">
+            <tr>
+              <th>
+                <br /><label for="Bukti kartu kipk"
+                  >Bukti Kartu Peserta KIP-K</label
+                >
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="file"
+                  name="Bukti Kartu Peserta KIP-K"
+                  id="Bukti kartu kipk"
+                  required
+                  multiple
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="color: rgb(116, 120, 141); font-size: small">
+                Filetipe: *.pdf | Maks. Size: 750KB
+              </td>
+            </tr>
+
+            <tr>
+              <th>
+                <br /><label for="Bukti kartu peserta"
+                  >Bukti Kartu Peserta SNBP/SNBP/SMMPTN</label
+                >
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="file"
+                  name="Bukti Kartu Peserta SNBP/SNBP/SMMPTN"
+                  id="Bukti kartu peserta"
+                  required
+                  multiple
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="color: rgb(116, 120, 141); font-size: small">
+                Filetipe: *.pdf | Maks. Size: 750KB
+              </td>
+            </tr>
+
+            <tr>
+              <th>
+                <br /><label for="Berkas kip"
+                  >Berkas Kartu Indonesia Pintar/Kartu Pra Sejahtera</label
+                >
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="file"
+                  name="Berkas Kartu Indonesia Pintar/Kartu Pra Sejahtera"
+                  id="Bekas kip"
+                  required
+                  multiple
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="color: rgb(116, 120, 141); font-size: small">
+                Filetipe: *.pdf | Maks. Size: 1MB
+              </td>
+            </tr>
+          </div>
+
+          <div class="button">
+            <tr>
+              <th align="left">
+                <br /><a href="Tugas2.html"><button
+                  class="btn btn-danger btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u"
+                >
+                  Sebelumnya
+                </button>
+              </th>
+              <th>
+                <br /><a href="identitasOrangtua.html"
+                  ><button
+                    class="btn btn-danger btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u"
+                  >
+                    Selanjutnya
+                  </button></a
+                >
+              </th>
+            </tr>
+          </div>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

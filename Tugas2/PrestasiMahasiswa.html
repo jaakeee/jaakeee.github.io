@@ -1,0 +1,259 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir kipk</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <p class="header">Prestasi Mahasiswa</p>
+      <div class="group">
+        <table>
+          <tr>
+            <th><label for="Ranking Kelas">Ranking Kelas</label></th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                list="ranking"
+                name="Ranking Kelas"
+                id="Ranking Kelas"
+                required
+                placeholder="Ranking Kelas"
+              />
+            </td>
+            <td>
+              <datalist id="ranking">
+                <option value="Ranking I"></option>
+                <option value="Ranking II"></option>
+                <option value="Ranking III"></option>
+                <option value="Ranking > III"></option>
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td style="color: rgb(116, 120, 141); font-size: small">
+              Dikelas XII, dibuktikan dengan ranking tertulis di rapor!
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Juara Kabupaten/Kota"
+                >Juara Kabupaten/Kota</label
+              >
+            </th>
+            <th>
+              <br /><label for="Bukti Prestasi Kabupaten/Kota"
+                >Bukti Prestasi Kabupaten/Kota</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                list="juara"
+                name="Juara Kabupaten/Kota"
+                id="Juara Kabupaten/Kota"
+                required
+                placeholder="Juara Kabupaten/Kota"
+              />
+            </td>
+            <datalist id="juara">
+              <option value="Juara 1"></option>
+              <option value="Juara 2"></option>
+              <option value="Juara 3"></option>
+              <option value="Harapan 1"></option>
+              <option value="Harapan 2"></option>
+              <option value="Harapan 3"></option>
+            </datalist>
+
+            <td>
+              <input
+                type="file"
+                name="Bukti Prestasi Kabupaten/Kota"
+                id="Bukti Prestasi Kabupaten/Kota"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Juara Wilayah">Juara Wilayah</label></th>
+            <th>
+              <br /><label for="Bukti Prestasi Wilayah"
+                >Bukti Prestasi Wilayah</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                list="juara"
+                name="Juara Kabupaten/Kota"
+                id="Juara Kabupaten/Kota"
+                required
+                placeholder="Juara Wilayah"
+              />
+            </td>
+            <datalist id="juara">
+              <option value="Juara 1"></option>
+              <option value="Juara 2"></option>
+              <option value="Juara 3"></option>
+              <option value="Harapan 1"></option>
+              <option value="Harapan 2"></option>
+              <option value="Harapan 3"></option>
+            </datalist>
+            <td>
+              <input
+                type="file"
+                name="Bukti Prestasi Wilayah"
+                id="Bukti Prestasi Wilayah"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Juara Provinsi">Juara Provinsi</label></th>
+            <th>
+              <br /><label for="Bukti Prestasi Provinsi"
+                >Bukti Prestasi Provinsi</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                list="juara"
+                name="Juara Kabupaten/Kota"
+                id="Juara Kabupaten/Kota"
+                required
+                placeholder="Juara Provinsi"
+              />
+            </td>
+            <datalist id="juara">
+              <option value="Juara 1"></option>
+              <option value="Juara 2"></option>
+              <option value="Juara 3"></option>
+              <option value="Harapan 1"></option>
+              <option value="Harapan 2"></option>
+              <option value="Harapan 3"></option>
+            </datalist>
+            <td>
+              <input
+                type="file"
+                name="Bukti Prestasi Provinsi"
+                id="Bukti Prestasi Provinsi"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th><br /><label for="Juara Nasional">Juara Nasional</label></th>
+            <th>
+              <br /><label for="Bukti Prestasi Nasional"
+                >Bukti Prestasi Nasional</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                list="juara"
+                name="Juara Kabupaten/Kota"
+                id="Juara Kabupaten/Kota"
+                required
+                placeholder="Juara Nasional"
+              />
+            </td>
+            <datalist id="juara">
+              <option value="Juara 1"></option>
+              <option value="Juara 2"></option>
+              <option value="Juara 3"></option>
+              <option value="Harapan 1"></option>
+              <option value="Harapan 2"></option>
+              <option value="Harapan 3"></option>
+            </datalist>
+            <td>
+              <input
+                type="file"
+                name="Bukti Prestasi Nasional"
+                id="Bukti Prestasi Nasional"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <br /><label for="Juara Internasional">Juara Internasional</label>
+            </th>
+            <th>
+              <br /><label for="Bukti Prestasi Internasional"
+                >Bukti Prestasi Internasional</label
+              >
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                list="juara"
+                name="Juara Kabupaten/Kota"
+                id="Juara Kabupaten/Kota"
+                required
+                placeholder="Juara Internasional"
+              />
+            </td>
+            <datalist id="juara">
+              <option value="Juara 1"></option>
+              <option value="Juara 2"></option>
+              <option value="Juara 3"></option>
+              <option value="Harapan 1"></option>
+              <option value="Harapan 2"></option>
+              <option value="Harapan 3"></option>
+            </datalist>
+            <td>
+              <input
+                type="file"
+                name="Bukti Prestasi Internasional"
+                id="Bukti Prestasi Internasional"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th align="left">
+              <br /><a href="KeuangandanAsetkeluarga.html"
+                ><button
+                  class="btn btn-danger btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u"
+                >
+                  Sebelumnya
+                </button></a
+              >
+            </th>
+            <th>
+              <br /><a href="#"
+                ><button
+                  class="btn btn-danger btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u"
+                >
+                  Kirim
+                </button></a
+              >
+            </th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
