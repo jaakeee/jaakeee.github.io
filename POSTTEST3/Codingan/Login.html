@@ -2,28 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyou Login</title>
+    <title>Register Form</title>
     <link rel="stylesheet" href="Login.css">
+    <script>
+        function showNotification(event) {
+            event.preventDefault(); 
+            alert("Account successfully created!");
+            document.getElementById("register-form").submit(); 
+        }
+    </script>
 </head>
 <body>
-    <div class="login-container">
-        <div class="logo">
-            <img src="Kyou.id.png" alt="Kyou.id Logo">
-        </div>
-        <h2>Explore your Hobby with Kyou!</h2>
-        <form class="login-form">
-            <input type="text" placeholder="Username" name="username" required>
-            <input type="password" placeholder="Password" name="password" required>
-            <a href="#" class="forgot-password">Forgot Your Password?</a>
-            <button type="submit" class="sign-in-btn">Sign In</button>
-            <div class="alternative-sign-in">
-                <p>Or sign in with the following methods</p>
-                <button class="facebook-btn">Sign In with Facebook</button>
+    <form id="register-form" action="Login.php" method="post" onsubmit="showNotification(event)">
+        <div class="container">
+            <div class="form-box">
+                <div class="social-login">
+                    <button class="facebook-btn">Register with Facebook</button>
+                </div>
+                <p>Or</p>
+                <div class="input-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="input-group">
+                    <label for="birthdate">Birth Date</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </div>
+                <button type="submit" class="register-btn">Register</button>
             </div>
-            <a href="#" class="register-link">Don't have an account? Click here!</a>
-        </form>
-    </div>
+        </div>
+        
+    </form>
 </body>
 </html>
